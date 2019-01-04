@@ -1,11 +1,15 @@
 # Intrusion-Detection-System
-It is a GUI of a python program which will send a notification to the host's mobile using Pushbullet API in every one hour, which will test whether the person using laptop is the host or not. If test fails i.e., if answer came 'No' from the host's mobile, program will click a photo of intruder and send it to host's mobile and lock the system.
+This project helps reduce the threat of people peeking into device while the owner isn’t around. 
+Employing push-bullet to send a verification message to the mobile number of the owner requesting authentication, this project is aimed at catering to its users the security of their devices, alongside a mechanism to identify the miscreant who tried to use the computer while he wasn’t around.
+The basic way this product works is that an authentication message is sent to the registered phone number using push-bullet requesting verification from the owner. The intervals when this verification message is sent can be modified by the user. Now, there are two scenarios that could happen. First, the owner is using the laptop at that time, and he verifies it. The program does nothing more and waits to resend the verification message after the predefined period of time.
+Second and the crucial scenario is when at receiving the verification message the owner doesn’t reply in affirmative. When this happens a snapshot of the person using the computer is clicked through the webcam and sent to the owner via push-bullet.
+Also after sending the image to the owner computer will be locked automatically.
 
 ![screenshot from 2018-05-06 13-41-18](https://user-images.githubusercontent.com/31770961/39677404-d3686cfc-5197-11e8-86e6-65055fff67e8.png)
 
 
 ### Special Cases:-
-If host don't reply for 10 notifications(each in a interval of 1 Mins), system will lock automatically.
+If host don't reply for 10 consecutive notifications, system will lock automatically.
 
 ### Requirements:-
 - Internet Connectivity
@@ -15,13 +19,13 @@ If host don't reply for 10 notifications(each in a interval of 1 Mins), system w
 	- Copy this key and paste when asked during execution.
 
 ### Used Module:-
-- os - Used to lock the system.
-- cv2 - Used to click picture.
-- time - For Scheduling.
-- socket - To check internet connectivity.
-- platform - To get system characterstics.
-- tkinter - Making GUI 
-- pushbullet - API to send notification and image.
-- ctypes - Lock windows system.
+- os
+- cv2
+- time
+- socket
+- ctypes
+- tkinter
+- platform
+- pushbullet
 
 ### Note:- It may not work with proxy internet.
