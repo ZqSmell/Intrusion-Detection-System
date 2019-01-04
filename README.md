@@ -9,7 +9,7 @@ Also after sending the image to the owner computer will be locked automatically.
 
 
 ### Special Cases:-
-If host don't reply for 10 consecutive notifications, system will lock automatically.
+If owner don't reply for 10 consecutive notifications, system will lock automatically.
 
 ### Requirements:-
 - Internet Connectivity
