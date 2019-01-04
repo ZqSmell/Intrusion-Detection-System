@@ -28,4 +28,5 @@ If owner don't reply for 10 consecutive notifications, system will lock automati
 - platform
 - pushbullet
 
-### Note:- It may not work with proxy internet.
+### Note:-
+It may not work with proxy internet.
