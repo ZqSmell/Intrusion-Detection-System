@@ -9,7 +9,7 @@ Also after sending the image to the owner computer will be locked automatically.
 
 
 ### Special Cases:-
-If owner don't reply for 10 consecutive notifications, system will lock automatically.
+If owner do not reply for 10 consecutive notifications, system will lock automatically.
 
 ### Requirements:-
 - Internet Connectivity
@@ -19,13 +19,9 @@ If owner don't reply for 10 consecutive notifications, system will lock automati
 	- Copy this key and paste when asked during execution.
 
 ### Used Module:-
-- os
 - cv2
-- time
 - socket
-- ctypes
 - tkinter
-- platform
 - pushbullet
 
 ### Note:-
