@@ -1,5 +1,5 @@
 # Intrusion-Detection-System
-This project helps reduce the threat of people peeking into device while the owner isn’t around. 
+This project helps reduce the threat of people peeking into device while the owner is not around. 
 Employing push-bullet to send a verification message to the mobile number of the owner requesting authentication, this project is aimed at catering to its users the security of their devices, alongside a mechanism to identify the miscreant who tried to use the computer while he wasn’t around.
 The basic way this product works is that an authentication message is sent to the registered phone number using push-bullet requesting verification from the owner. The intervals when this verification message is sent can be modified by the user. Now, there are two scenarios that could happen. First, the owner is using the laptop at that time, and he verifies it. The program does nothing more and waits to resend the verification message after the predefined period of time.
 Second and the crucial scenario is when at receiving the verification message the owner doesn’t reply in affirmative. When this happens a snapshot of the person using the computer is clicked through the webcam and sent to the owner via push-bullet.
