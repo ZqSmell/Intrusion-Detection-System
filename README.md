@@ -24,7 +24,4 @@ If host don't reply for 10 notifications(each in a interval of 1 Mins), system w
 - pushbullet - API to send notification and image.
 - ctypes - Lock windows system.
 
-### Screenshot:-
-![screenshot_20180507-011617](https://user-images.githubusercontent.com/31770961/39677412-e3a1cd0c-5197-11e8-96b2-a7d43c7975ab.png)
-
 ### Note:- It may not work with proxy internet.
