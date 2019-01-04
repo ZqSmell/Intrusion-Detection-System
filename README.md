@@ -13,8 +13,6 @@ If host don't reply for 10 notifications(each in a interval of 1 Mins), system w
 	- Click on Settings in left tab.
 	- In Accounts (scroll down) and click on "Create Access Token."
 	- Copy this key and paste when asked during execution.
-  
-![screenshot from 2018-05-06 13-40-03](https://user-images.githubusercontent.com/31770961/39677395-bd7427b0-5197-11e8-8e23-5d95c63239f9.png)
 
 ### Used Module:-
 - os - Used to lock the system.
