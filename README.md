@@ -7,10 +7,6 @@ Also after sending the image to the owner computer will be locked automatically.
 
 ![screenshot from 2018-05-06 13-41-18](https://user-images.githubusercontent.com/31770961/39677404-d3686cfc-5197-11e8-86e6-65055fff67e8.png)
 
-
-### Special Cases:-
-If owner do not reply for 10 consecutive notifications, system will lock automatically.
-
 ### Requirements:-
 - Internet Connectivity
 - Pushbullet Access tokens - Open pushbullet account on "pushbullet.com"
