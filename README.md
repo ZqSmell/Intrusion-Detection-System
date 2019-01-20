@@ -23,6 +23,3 @@ If owner do not reply for 10 consecutive notifications, system will lock automat
 - socket
 - tkinter
 - pushbullet
-
-### Note:-
-It may not work with proxy internet.
