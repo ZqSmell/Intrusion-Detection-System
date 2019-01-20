@@ -7,14 +7,14 @@ Also after sending the image to the owner computer will be locked automatically.
 
 ![screenshot from 2018-05-06 13-41-18](https://user-images.githubusercontent.com/31770961/39677404-d3686cfc-5197-11e8-86e6-65055fff67e8.png)
 
-### Requirements:-
+# Requirements:-
 - Internet Connectivity
 - Pushbullet Access tokens - Open pushbullet account on "pushbullet.com"
 	- Click on Settings in left tab.
 	- In Accounts (scroll down) and click on "Create Access Token."
 	- Copy this key and paste when asked during execution.
 
-### Used Module:-
+# Used Module:-
 - cv2
 - socket
 - tkinter
